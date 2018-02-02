@@ -46,3 +46,24 @@ then start your application and enjoy the result
 ```
 npm start
 ```
+
+## Clone the repository
+An alternative to see how the components work is to clone the repository and run it locally
+
+```
+git clone https://github.com/mirgj/siimact-test.git
+```
+
+restore the packages
+
+```
+cd siimact-test
+npm install 
+```
+
+and then start it
+
+```
+npm start
+```
+
