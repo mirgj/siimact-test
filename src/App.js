@@ -1,7 +1,48 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Alert, Content, Quote, Code, Paragraph, Heading, Link, Small, Tag, Button, Spinner, Tip, Table, TRow, TCell, Box, Footer, Jumbotron, Breadcrumb, Crumb, Menu, MenuGroup, MenuItem, SubMenu, Tabs, TabItem, Navbar, NavTitle, NavLink, Grid, Row, Col, Form, Field, Input, Textarea, Select, Label } from 'siimact'
+import { 
+  Alert, 
+  Content, 
+  Quote, 
+  Code, 
+  Paragraph, 
+  Heading, 
+  Link, 
+  Small, 
+  Tag, 
+  Button, 
+  Spinner, 
+  Tip, 
+  Table, 
+  TRow, 
+  TCell, 
+  Box, 
+  Footer, 
+  Jumbotron, 
+  Breadcrumb, 
+  Crumb, 
+  Menu, 
+  MenuGroup, 
+  MenuItem, 
+  SubMenu, 
+  Tabs, 
+  TabItem, 
+  Navbar, 
+  NavTitle, 
+  NavLink, 
+  Grid, 
+  Row, 
+  Col, 
+  Form, 
+  Field, 
+  Input, 
+  Textarea, 
+  Select, 
+  Label, 
+  Checkbox, 
+  Switch 
+} from 'siimact'
 
 class App extends Component {
   doSomething = (e) => {
@@ -243,6 +284,12 @@ class App extends Component {
             <Label>small label</Label>
             <Input type='text' id='oo' placeholder='test placeholder' fullwidth={true} />
           </Form>
+          <Checkbox label='checktest' />
+          <Checkbox label='checktest checked' checked={true} />
+          <Checkbox label='checktest checked with action' checked={true} onChange={this.doSomething} />
+          <Switch label='switchtest' />
+          <Switch label='switchtest checked' checked={true} />
+          <Switch label='switchtest checked with action' checked={true} onChange={this.doSomething} />
         </Content>
         <Footer size='fluid' color='teal'>A Simple footer</Footer>
       </div>
