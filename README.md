@@ -19,13 +19,13 @@ npm install --save-dev siimact
 
 then you include in your app the **siimact** components
 
-```
+```js
 import { Alert, Content } from 'siimact';
 ```
 
 and start to use it
 
-```
+```jsx
 <Content>
   <Alert color='orange'>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</Alert>
 </Content>
@@ -33,7 +33,7 @@ and start to use it
 
 remember to include the Siimple CSS in public/index.html
 
-```
+```html
 <head>
   ...
 
